@@ -1,0 +1,6 @@
+name = "gegl"
+description = "Interface for the Gegl library"
+version = "0.01"
+license = "ISC License"
+archive(byte) = "gegl.cma"
+archive(native) = "gegl.cmxa"

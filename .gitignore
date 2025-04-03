@@ -1,0 +1,5 @@
+*.cm[ioxa]
+*.cmxa
+*.so
+*.[oa]
+_*

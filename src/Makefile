@@ -22,7 +22,7 @@ lib: gegl.cma
 opt: gegl.cmxa
 
 gegl_stubs.o: gegl_stubs.c
-	$(OCAMLOPT) -fPIC -c -ccopt "$(GEGL_CFLAGS)" $<
+	$(OCAMLOPT) -c -ccopt "$(GEGL_CFLAGS)" $<
 
 gegl.cmi: gegl.mli
 	$(OCAMLC) -c $<
